@@ -5,6 +5,8 @@ spring:
   application:
     name: api-gateway
 
+jwt:
+  secret: mySuperSecretKey123456
 eureka:
   client:
     service-url:
@@ -12,3 +14,4 @@ eureka:
 
 zipkin:
   base-url: http://zipkin:9411
+  
